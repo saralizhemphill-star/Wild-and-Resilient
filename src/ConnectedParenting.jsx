@@ -237,17 +237,16 @@ export default function ConnectedParenting() {
 
           {/* TAB: Video */}
           {lessonTab === "video" && (
-            <div className="space-y-4">
-              <div className="bg-gray-900 rounded-2xl aspect-video flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-teal-900/30 to-gray-900"></div>
-                <div className="relative text-center">
-                  <div className="w-20 h-20 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-4 hover:bg-white/30 cursor-pointer transition-all hover:scale-110">
-                    <Play size={36} className="text-white ml-1" />
-                  </div>
-                  <p className="text-white font-medium text-lg mb-1">{lessonTitle}</p>
-                  <p className="text-white/60 text-sm">3–5 min instruction video</p>
-                </div>
-              </div>
+           <div className="rounded-2xl overflow-hidden aspect-video">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/m3bi0xIkPLw"
+    title={lessonTitle}
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center text-white font-bold text-lg shrink-0">L</div>
