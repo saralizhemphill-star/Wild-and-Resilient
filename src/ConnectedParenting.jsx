@@ -237,16 +237,16 @@ export default function ConnectedParenting() {
 
           {/* TAB: Video */}
           {lessonTab === "video" && (
-           <div className="rounded-2xl overflow-hidden aspect-video">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/m3bi0xIkPLw"
-    title={lessonTitle}
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
+             <div className="rounded-2xl overflow-hidden aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/m3bi0xIkPLw"
+                  title={lessonTitle}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center text-white font-bold text-lg shrink-0">L</div>
