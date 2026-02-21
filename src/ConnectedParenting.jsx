@@ -416,7 +416,7 @@ export default function ConnectedParenting() {
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                   This downloadable worksheet includes guided reflection questions to help you apply the strategies from this lesson to your own family. Take your time — there are no right or wrong answers.
                 </p>
-                <a
+                
                   href={`/worksheets/${pdfFilename}`}
                   download
                   className="inline-flex items-center gap-2 bg-teal-600 text-white px-5 py-3 rounded-xl hover:bg-teal-700 transition-colors font-medium text-sm"
